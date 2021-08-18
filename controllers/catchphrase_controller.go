@@ -36,7 +36,7 @@ func GetCatchphrasesBy(ctx *fiber.Ctx) error {
 					},
 				},
 				{
-					"catchphrase": bson.M{
+					"catchPhrase": bson.M{
 						"$regex": primitive.Regex{
 							Pattern: s,
 							Options: "i",
