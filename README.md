@@ -1,4 +1,4 @@
-# Movie Catchphrase
+# Movie Catchphrase REST API
 
 This is a demo app showing CRUD with gofiber
 
